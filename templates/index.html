@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEENII web solutions</title>
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+    <link rel="stylesheet" href="{% static 'stylez.css' %}">
+    <link rel="stylesheet" href="{% static 'lstbr.css' %}">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.6/jquery.validate.unobtrusive.min.js"></script>
+ 
+
+</head>
+<body id="body">
+    
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <h2 class="navbar-header">GEENII solutions</h2>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <svg id="btn" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item" id="tlist"><a href="#abt" class="nav-link" id="tlink">ABOUT US</a></li>
+                <li class="nav-item" id="tlist"><a href="#pkgs" class="nav-link" id="tlink">PACKAGES</a></li>
+            
+                <li class="nav-item" id="tlist"><a href="#rp" class="nav-link" id="tlink">RECENT PROJECTS</a></li>
+                <li class="nav-item" id="tlist"><a href="#aq" class="nav-link" id="tlink">CONTACT US</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    
+    <section id="home">
+        <div class="row" id="about">
+            <div class="col-lg-6 col-md-12 col-sm-12 order-1" id="pad2" data-aos="fade-up" data-aos-duration="1000">
+                
+                <img src="{% static 'web_dp.png' %}" class="img-fluid">
+
+            </div>
+            
+            <div class="col-lg-6 col-md-12 col-sm-12 py-lg-0 py-3 order-sm-2" id="pad" data-aos="fade-up" data-aos-duration="1000">
+                <p class="my-lg-2 my-3 eng" id="econtent">
+                    <h1>Hey there ...</h1>
+                    <p id="apera">
+                        we are developers, do you have a business ? good.
+                         This is the place for your business website , 
+                         you can get better websites for low price here &
+                          this is the site for 
+                        students who are interested in web development
+                    </p>
+                <h3>GEENII Solutions</h3>
+                <div id="contactlk">
+                    <a href=""><img src="{% static 'icons/fb.png' %}" class="cicon"></a>
+                    <a href=""><img src="{% static 'icons/wapp.png' %}" class="cicon"></a>
+                    <a href=""><img src="{% static 'icons/twtr.png' %}" class="cicon"></a>
+                    <a href=""><img src="{% static 'icons/inst.png' %}" class="cicon"></a>
+                </div>            
+            </div>
+            
+        </div>
+    </section>
+    
+    <section id="mar">
+        <div class="web" data-aos="fade-up" data-aos-duration="1000" id="abt">
+            <h2 class="sub cap hcolor">Web Developing & Designing</h2>
+            <br>
+        </div>
+        <div id="special" data-aos="fade-up" data-aos-duration="1000">
+            <div class="str" data-aos="fade-up" data-aos-duration="1000">
+                <img src="{% static 'icons/security.png' %}" class="img-fluid strimg">
+                <h3>Security</h3>
+                <p>
+                    We create your websites with high security system. 
+                    The sensitive datas of user will be secured and we ensure 
+                    to protect the input datas of users
+                </p>
+            </div>
+            <div class="str" data-aos="fade-up" data-aos-duration="1000">
+                <img src="{% static 'icons/responsive.png' %}" class="img-fluid strimg">
+                <h3>Responsive</h3>
+                <p>
+                    Our websites can be viewed using any smart devices with 
+                    different sizes of screen and user-friendly
+                </p>
+            </div>
+            <div class="str" data-aos="fade-up" data-aos-duration="1000">
+                <img src="{% static 'icons/tech.png' %}" class="img-fluid strimg">
+                <h3>Technology</h3>
+                <p>
+                    We will design your websites using latest technological ideas. 
+                    So your website will be more unique
+                </p>
+            </div>
+        </div>
+        <div class="web" data-aos="fade-up" data-aos-duration="1000" id="pkgs">
+            <h2 class="sub cap hcolor">Web packages we are providing</h2>
+            <br>
+        </div>
+        <div id="special" data-aos="fade-up" data-aos-duration="1000">
+            <div class="str2" data-aos="fade-up" data-aos-duration="1000">
+                <h3 class="hcolor">Normal website</h3>
+                <p>
+                    good looking frontend and some basic backend Functions like content adding
+                </p>
+                <ul>
+                    <li>Functional website</li>
+                    <li>3 pages</li>
+                    <li>Content upload</li>
+                    <li>Responsive design</li>
+                    <li>Paid Hosting</li>
+                    <li>4 Days delivery</li>
+                    <br>
+                    <br>
+                    <h2>Rs 3,500</h2>
+                </ul>
+            </div>
+            <div class="str2" data-aos="fade-up" data-aos-duration="1000">
+                <h3 class="hcolor">Standard website</h3>
+                <p>
+                    good looking frontend and also with backend Functions like user authentication and more
+                </p>
+                <ul>
+                    <li>Functional website</li>
+                    <li>6 pages</li>
+                    <li>Content upload</li>
+                    <li>Responsive design</li>
+                    <li>Free Hosting</li>
+                    <li>7 Days delivery</li>
+                    <br>
+                    <h2>Rs 8,500</h2>
+                </ul>
+            </div>
+            <div class="str2" data-aos="fade-up" data-aos-duration="1000">
+                <h3 class="hcolor">Premium website</h3>
+                <p>
+                    good looking frontend and also with backend Functions like user authentication and more
+                </p>
+                <ul>
+                    <li>Functional website</li>
+                    <li>10 pages</li>
+                    <li>Content upload</li>
+                    <li>Responsive design</li>
+                    <li>Free Hosting</li>
+                    <li>14 Days delivery</li>
+                    <p></p>
+                    <h2>Rs 15,000</h2>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div class="web" data-aos="fade-up" data-aos-duration="1000" id="rp">
+        <h2 class="sub cap hcolor">Recent Projects</h2>
+        <br>
+    </div>
+    <div class="projects pn" id="special" data-aos="fade-up" data-aos-duration="1000">
+        
+    </div>
+    <div class="web" data-aos="fade-up" data-aos-duration="1000" id="aq">
+        <h2 class="sub cap hcolor">Contact us</h2>
+        <br>
+    </div>
+    <div id="special" data-aos="fade-up" data-aos-duration="1000">
+        <div class="str5" data-aos="fade-up" data-aos-duration="1000">
+            <br>
+            <h3 class="hcolor">Contact Us</h3>
+            <img src="{% static 'geenii.png' %}" class="img-fluid"><br>
+            <button class="btn btn-primary cbtn">Email account</button>
+            <br>
+            <button class="btn btn-primary cbtn">WhatsApp account</button>
+            <br>
+            <button class="btn btn-primary cbtn">FaceBook</button>
+            <br>
+        </div>
+        <form action="" class="str4" data-aos="fade-up" data-aos-duration="1000" id="ask-question">
+            {% csrf_token %}
+            <h3 class="hcolor">Ask question</h3><br>
+            <label for="name">Enter your name</label>
+            <input type="text" data-val="true" data-val-length="Length must be between 2 to 30" data-val-length-max="30" data-val-length-min="2" data-val-required="Name is required" id="name" name="name" value="" />
+            <span class="field-validation-valid msg" data-valmsg-for="name" data-valmsg-replace="true"></span>
+            <br>
+            <label for="email">Email Address</label>
+            <input type="email" data-val="true" maxlength="50" data-val-required="Email is required" id="email" name="email" value="" />
+            <span class="field-validation-valid msg" data-valmsg-for="email" data-valmsg-replace="true"></span>
+            <br>
+            <label for="number">Mobile Number</label>
+            <input type="text" data-val="true" data-val-length="Length must be atleast 9 charecters" data-val-length-max="13" data-val-length-min="9" data-val-required="Mobile number is required" id="number" name="number" value="" />
+            <span class="field-validation-valid msg" data-valmsg-for="number" data-valmsg-replace="true"></span>
+            <br>
+            <label for="question">Your Question</label>
+            <textarea name="question" id="question" cols="25" rows="5" data-val="true" data-val-length="Length must be between 5 to 200" data-val-length-max="200" data-val-length-min="5" data-val-required="Please enter your question"></textarea>
+            <span class="field-validation-valid msg" data-valmsg-for="question" data-valmsg-replace="true"></span><br>
+            <input type="submit" value="Send" class="btn btn-primary">
+        </form>
+    </div>
+    <div id="lstbr">
+        <h2>GEENII Solutions</h2>
+        <hr>
+        © 2022 GEENII Solutions. All rights
+    </div>
+    <script>
+        $(document).ready(function(){
+                setInterval(function(){
+                    $.ajax({
+                    type:"GET",
+                    url:"/getinfo",
+                    success: function(result){
+                        $(".pn").empty();
+                        for (var key in result.projects){
+                            var projectName = result.projects[key].project_name
+                            var projectLink = result.projects[key].project_link
+                            var projectDescription = result.projects[key].project_description
+                            var projectDp = result.projects[key].project_dp
+                            var img = "{{projectDp.url}}"
+                            var data = '<div class="str3" >'+
+                                            '<img src="../media/'+projectDp+'" class="img-fluid">'+
+                                            '<h3>'+projectName+'</h3>'+
+                                            '<p>'+projectDescription+'</p>'+
+                                            '<a href="'+projectLink+'" target="_blank" id="a">'+
+                                            '<button class="btn btn-primary">Click to view</button></a>'+
+                                        '</div>'
+                            
+                            $(".pn").append(data)
+                        }
+                    },
+                    error:function(result){
+                        alert("an error ocquered")
+                    }
+                    })
+                },1000)
+            })
+
+            $(document).on("submit","#ask-question",function(e){
+                e.preventDefault();
+
+                $.ajax({
+                    type:"POST",
+                    url:"/ask",
+                    data:{
+                        name:$("#name").val(),
+                        email:$("#email").val(),
+                        number:$("#number").val(),
+                        question:$("#question").val(),
+                        csrfmiddlewaretoken:$("input[name=csrfmiddlewaretoken]").val(),
+                    },  
+                    success:function(result){
+                        alert(result)
+                        $("#ask-question")[0].reset();
+                    }
+                });
+                
+            });
+    </script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+     
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
